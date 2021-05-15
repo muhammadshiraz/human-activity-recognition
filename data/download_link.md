@@ -3,7 +3,7 @@ The source images for training are stored here.
 ## Download data
 
 Please download the data from
-* Google driver: https://drive.google.com/open?id=1V8rQ5QR5q5zn1NHJhhf-6xIeDdXVtYs9
+https://drive.google.com/uc?id=1qELGC5zHnrksd98nqXHLybX3BA8tz2qL
 
 Unzip the data and you will see the folder: `data`. Use it to replace the `data`.
 
