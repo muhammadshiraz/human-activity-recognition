@@ -95,8 +95,7 @@ python run.py --model=mobilenet_thin --resize=432x368 --image=./images/p1.jpg
 
 ## Confusion Matrix
 
-![](doc/confusion_matrix.png)
-
+![](doc/confusion_matrix.jpg)
 
 ## Main scripts
 The 5 main scripts are under `src/`. They are named under the order of excecution:
