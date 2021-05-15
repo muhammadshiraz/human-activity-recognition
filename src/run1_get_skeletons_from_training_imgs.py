@@ -9,17 +9,17 @@ Each image is named as 00001.jpg, 00002.jpg, ...
 
 An example of the content of valid_images.txt is shown below:
 
-    jump_03-12-09-18-26-176
-    58 680
+    running_03-13-11-27-50-720
+    52 59
 
-    jump_03-13-11-27-50-720
-    source_images365 393
-
-    kick_03-02-12-36-05-185
+    jogging_03-02-12-34-01-795
     54 62
-    75 84
 
-The two indices (such as `56 680` in the first `jump` example)
+    walking_03-12-09-13-10-500
+    71 150
+    203 237
+
+The two indices (such as `56 680` in the first `running` example)
 represents the starting index and ending index of a certain action.
 
 Input:

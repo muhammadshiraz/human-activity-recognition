@@ -21,14 +21,14 @@ Example of usage:
 python src/run5_result.py \
     --model_path model/trained_classifier.pickle \
     --data_type video \
-    --data_path data_test/exercise.avi \
+    --data_path data_videos/jogging.mp4 \
     --output_folder output
     
 (2) Test on a folder of images:
 python src/run5_result.py \
     --model_path model/trained_classifier.pickle \
     --data_type folder \
-    --data_path data_test/apple/ \
+    --data_path data_videos/testing/ \
     --output_folder output
 
 (3) Test on web camera:

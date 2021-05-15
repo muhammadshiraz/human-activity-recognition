@@ -1,5 +1,7 @@
 # Multi-person Real-time Action Recognition Based-on Human Skeleton
 
+Human action recognition based on video data has diverse applications. For example, it can be used for interactive games where a person's movement is recognized by the computer and used as the input for playing games etc.
+
 ![](outputs/running/running.gif)
 
 ![](outputs/clapping/clapping.gif)
@@ -190,7 +192,7 @@ Example commands are given below:
 python src/run5_result.py \
     --model_path model/trained_classifier.pickle \
     --data_type video \
-    --data_path data_videos/exercise.avi \
+    --data_path data_videos/jogging.mp4 \
     --output_folder output
 ```
 
@@ -214,13 +216,12 @@ python src/run5_result.py \
 
 # 5. Training data
 
-
 ## Download my data
 Follow the instructions in [data/download_link.md](data/download_link.md) to download the data. Or, you can create your own. The data and labelling format are described below.
 
 ## Data format
 
-Each data subfolder (e.g. `data/jump_03-02-12-34-01-795/`) contains images named as `00001.jpg`, `00002.jpg`, etc.   
+Each data subfolder (e.g. `data/running_03-02-12-34-01-795/`) contains images named as `00001.jpg`, `00002.jpg`, etc.   
 The naming format of each image is defined in [config/config.yaml](config/config.yaml) by the sentence: `image_filename_format: "{:05d}.jpg"`.
 
 The images to be used as training data and their label are configured by this txt file: [data/valid_images.txt](data/valid_images.txt).  
@@ -261,7 +262,7 @@ Then, follow the following steps to do the training:
     python src/run1_get_skeletons_from_training_imgs.py
     python src/run2_put_skeleton_txts_to_a_single_txt.py 
     python src/run3_preprocess_features.py
-    python src/s4_train.py 
+    python src/run4_train.py 
     ```
 
 By default, the intermediate data are saved to [data_skel/](data_skel/), and the model is saved to [model/trained_classifier.pickle](model/trained_classifier.pickle).  
