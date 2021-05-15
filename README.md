@@ -6,7 +6,6 @@ Human action recognition based on video data has diverse applications. For examp
 
 ![](outputs/clapping/clapping.gif)
 
-
 **Highlights**: 
 4 actions; multiple people (<=5); Real-time and multi-frame based recognition algorithm.
 
@@ -20,7 +19,7 @@ Human action recognition based on video data has diverse applications. For examp
 - [1. Algorithm](#1-algorithm)
 - [2. Install Dependency (OpenPose)](#2-install-dependency--openpose-)
 - [3. Program structure](#3-program-structure)
-  * [Diagram](#diagram)
+  * [Confusion Matrix](#confusion-matrix)
   * [Main scripts](#main-scripts)
 - [4. How to run: Inference](#4-how-to-run--inference)
   * [Introduction](#introduction)
@@ -32,8 +31,6 @@ Human action recognition based on video data has diverse applications. For examp
   * [Data format](#data-format)
   * [Classes](#classes)
 - [6. How to run: Training](#6-how-to-run--training)
-- [7. Result and Performance](#7-result-and-performance)
-
 
 # 1. Algorithm
 
